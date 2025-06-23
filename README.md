@@ -37,14 +37,14 @@ My contribution: **Kalman-filter implementation, state-space matrices, and likel
 
 ## 🚀 Quick Start
 ```bash
-# 1️⃣ Clone
+# 1. Clone
 git clone https://github.com/pVachev/KalmanFilter.git
 cd KalmanFilter
 
-# 2️⃣ Create environment
+# 2. Create environment
 python -m venv venv
 source venv/bin/activate          # Windows → venv\Scripts\activate
 pip install -r requirements.txt   # see below
 
-# 3️⃣ Run the notebook
+# 3. Run the notebook
 jupyter lab KalmanFilterImplementation.ipynb

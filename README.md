@@ -8,13 +8,11 @@
 ## ✨ Project Overview
 This repo implements the **Schwartz & Smith (2000) two-factor commodity model**:
 
-\\[
-\\ln F(t,T)=\\chi_t+\\xi_t+A(T-t)
-\\]
+`ln F(t,T) = χ_t + ξ_t + A(T−t)`
 
-* `\\chi_t` – short-term, mean-reverting (Ornstein–Uhlenbeck)  
-* `\\xi_t` – long-term, Brownian motion with drift  
-* `A(T-t)=\\alpha+\\beta\\,(T-t)` – deterministic maturity term  
+- `χ_t` – short-term, mean-reverting (Ornstein–Uhlenbeck)  
+- `ξ_t` – long-term, Brownian motion with drift  
+- `A(T−t) = α + β·(T−t)` – deterministic maturity term
 
 Our 4-person quant-finance team at **emlyon business school** used a **Kalman filter** in Python to estimate these latent states for WTI crude-oil futures (1990–1995, 5 maturities).  
 My contribution: **Kalman-filter implementation, state-space matrices, and likelihood optimisation.**

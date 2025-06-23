@@ -48,3 +48,6 @@ pip install -r requirements.txt   # see below
 
 # 3. Run the notebook
 jupyter lab KalmanFilterImplementation.ipynb
+
+Made with ❤ by Preslav Vachev
+Questions? Open an issue or reach out on LinkedIn

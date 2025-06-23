@@ -29,3 +29,8 @@ My contribution: **Kalman-filter implementation, state-space matrices, and likel
 *Two-factor spec ↑ > 20 % vs. best one-factor benchmark.*
 
 ## Repository Structure
+.
+├── Dataset_FuturesPrices.xlsx # raw weekly WTI futures prices (Jan 1990–Jan 1995)
+├── KalmanFilterImplementation.ipynb # Jupyter notebook (full analysis)
+├── SchwartzSmith_ShortTermVariationsAndLongT...pdf # reference paper
+└── README.md
